@@ -1,8 +1,8 @@
 # Search_USmap
 Requirements:
-1. Use Vue.js as the frontend and Node.js with GraphQL as the backend to demo a small typeahead suggestion input for all American states and territories.
-2. State filtering logic should be done in backend(GraphQL).
-3. Add a simple US map from google map API and highlight the state from the above selection in the map dynamically.
+1. Use Vue.js as the frontend and Node.js with GraphQL as the backend to demo a small typeahead suggestion input for all American states and territories
+2. State filtering logic should be done in backend(GraphQL)
+3. Add a simple US map from google map API and highlight the state from the above selection in the map dynamically
 
 # Run
 npm install
@@ -18,4 +18,4 @@ npm run dev
 
 # Unfinishings
 1. Attach highlighted selections to corresponding states in google map
-2. Search bar selection dynamically changes with input
+2. Search bar selection dynamically changes with input and use GraphQL to do filter logic
