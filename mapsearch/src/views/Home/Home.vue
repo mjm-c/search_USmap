@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-   <input v-model="keyWords" type="text" placeholder="请输入关键词"  @input="handleQuery">
+   <input v-model="keyWords" type="text" placeholder="Please enter"  @input="handleQuery">
    <ul>
        <li v-for="(item,index) in results" :key='index' v-html='item.name'></li>
    </ul>
